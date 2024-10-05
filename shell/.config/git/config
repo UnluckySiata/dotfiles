@@ -1,0 +1,25 @@
+[user]
+	name = Mikołaj Siatkowski
+	email = msiatkowski@tutanota.com
+[ui "color"]
+	ui = always
+[color]
+	ui = true
+[merge]
+	tool = nvim -d
+[alias]
+	c = commit
+	s = status
+	lg = log --oneline
+	last = log -1 HEAD
+	sl = stash list
+[help]
+	autocorrect = 1
+[url "git@github.com"]
+	insteadOf = github.com
+[url "git@github.com:"]
+	insteadOf = gh:
+[github]
+	user = UnluckySiata
+[init]
+	defaultBranch = main
